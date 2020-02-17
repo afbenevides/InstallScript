@@ -24,6 +24,8 @@ All modules needed for enterprise with services for utility business.
         'sale_margin_percent',
         'sale_product_manufacturer',
         'sale_product_manufacturer_model',
+        'sale_hide_tax_sale_order_lines',
+        'sale_crm_auto_update_lead',
 
         # OCA sale-workflow
         'sale_order_revision',
