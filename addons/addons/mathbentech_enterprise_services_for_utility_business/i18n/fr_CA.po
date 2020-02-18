@@ -24,3 +24,334 @@ msgstr "Mes Soumissions"
 #: model:ir.model.fields,field_description:sale.field_sale_order__client_order_ref
 msgid "Customer Reference"
 msgstr "Ref. client (PO)"
+
+#. module: sale_cancel_reason
+#: model:sale.order.cancel.reason,name:sale_cancel_reason.cancel_reason_only_quotation
+msgid "Just for Quotation"
+msgstr "Uniquement pour la soumission"
+
+#. module: purchase
+#: model:mail.template,body_html:purchase.email_template_edi_purchase
+msgid ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Dear ${object.partner_id.name}\n"
+"        % if object.partner_id.parent_id:\n"
+"            (${object.partner_id.parent_id.name})\n"
+"        % endif\n"
+"        <br/><br/>\n"
+"        Here is in attachment a request for quotation <strong>${object.name}</strong>\n"
+"        % if object.partner_ref:\n"
+"            with reference: ${object.partner_ref}\n"
+"        % endif\n"
+"        from ${object.company_id.name}.\n"
+"        <br/><br/>\n"
+"        If you have any questions, please do not hesitate to contact us.\n"
+"        <br/><br/>\n"
+"        Best regards,\n"
+"    </p>\n"
+"</div>"
+msgstr ""
+"<div style=\"margin: 0px; padding: 0px;\">\n"
+"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
+"        Cher(e) ${object.partner_id.name}\n"
+"        % if object.partner_id.parent_id:\n"
+"            (${object.partner_id.parent_id.name})\n"
+"        % endif\n"
+"        <br/><br/>\n"
+"        Vous trouverez en pièce jointe une demande de soumission <strong>${object.name}</strong>\n"
+"        % if object.partner_ref:\n"
+"            with reference: ${object.partner_ref}\n"
+"        % endif\n"
+"        de ${object.company_id.name}.\n"
+"        <br/><br/>\n"
+"        N'hesitez pas à nous contacter si vous avez des questions.\n"
+"        <br/><br/>\n"
+"        Salutations,\n"
+"    </p>\n"
+"</div>"
+
+#. module: sale_order_revision
+#: model_terms:ir.ui.view,arch_db:sale_order_revision.view_order_form
+msgid "New Revision of Quotation"
+msgstr "Nouvelle version de la soumission"
+
+#. module: sale_product_set
+#: model_terms:ir.ui.view,arch_db:sale_product_set.product_set_add_form_view
+msgid "Add set in sale order line"
+msgstr "Ajout d'un Set à la soumission"
+
+#. module: crm
+#: model:mail.activity.type,name:crm.mail_activity_demo_followup_quote
+msgid "Follow-up Quote"
+msgstr "Faire suivi de soumission"
+
+#. module: crm
+#: model:mail.activity.type,name:crm.mail_activity_demo_make_quote
+msgid "Make Quote"
+msgstr "Faire soumission"
+
+#. module: crm
+#: model_terms:ir.actions.act_window,help:crm.crm_case_form_view_salesteams_opportunity
+msgid ""
+"You will be able to plan meetings and phone calls from\n"
+"                    opportunities, convert them into quotations, attach related\n"
+"                    documents, track all discussions, and much more."
+msgstr ""
+"Vous serez en mesure de planifier des réunions et des appels provenant\n"
+" d'opportunités, de les convertir en soumission, de joindre des documents\n"
+" connexes, de suivre toutes les discussions et bien plus encore."
+
+#. module: hr
+#: model_terms:hr.job,website_description:hr.job_consultant
+msgid "Analyse needs, write specification documents and quotation"
+msgstr ""
+"Analyser des besoins, écrire des documents de spécification et des soumissions"
+
+#. module: hr
+#: model_terms:hr.job,website_description:hr.job_consultant
+msgid ""
+"We are looking for a motivated and results-driven Functional Consultant! You"
+" will take part in the consulting services we provide to our partners and "
+"customers, on the functional side. Your job start from the quotation to the "
+"customer to the delivery to the customer. You listen the customer and try to"
+" give him the best service. You report to the head of consulting service and"
+" will be coached by a senior consultant."
+msgstr ""
+"Nous sommes à la recherche d'un consultant fonctionnel motivé et axé sur les"
+" résultats ! Vous prendrez part aux services de consultation de niveau "
+"fonctionnel que nous offrons à nos partenaires et clients. Votre travail "
+"débute à la production de soumissions pour les clients et se poursuit jusqu'à la "
+"livraison. Vous êtes à l'écoute du client et lui fournissez le meilleur "
+"service. Vous rapportez au chef du service de consultation et serez formé "
+"par un consultant senior."
+
+#. module: purchase_requisition
+#: code:addons/purchase_requisition/models/purchase_requisition.py:116
+#, python-format
+msgid "Cancelled by the agreement associated to this quotation."
+msgstr "Annulé par le contrat associé à cette soumission."
+
+#. module: purchase_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_type_form
+msgid "Data for new quotations"
+msgstr "Données pour nouvelles soumissions"
+
+#. module: purchase_requisition
+#: selection:purchase.requisition.type,line_copy:0
+msgid "Do not create RfQ lines automatically"
+msgstr "Ne pas créer de lignes de demande de soumission automatiquement"
+
+#. module: purchase_requisition
+#: model_terms:ir.actions.act_window,help:purchase_requisition.action_purchase_requisition
+msgid ""
+"In a call for tenders, you can record the products you need to buy\n"
+"            and generate the creation of RfQs to vendors. Once the tenders have\n"
+"            been registered, you can review and compare them and you can\n"
+"            validate some and cancel others."
+msgstr ""
+"Dans le cas d'un appel d'offres, vous pouvez enregistrer les produits que vous souhaitez acheter\n"
+" et générer des demandes de soumission pour les fournisseurs. Une fois les offres\n"
+" enregistrées, vous pouvez les examiner et les comparer, puis en\n"
+" valider certaines et annuler les autres."
+
+#. module: purchase_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
+msgid "New Quotation"
+msgstr "Nouvelle soumission"
+
+#. module: purchase_requisition
+#: model_terms:ir.ui.view,arch_db:purchase_requisition.view_purchase_requisition_form
+msgid "RFQs/Orders"
+msgstr "Demandes de soumissions/commandes"
+
+#. module: purchase_requisition
+#: model:ir.model.fields,help:purchase_requisition.field_purchase_requisition_type__exclusive
+msgid ""
+"Select only one RFQ (exclusive):  when a purchase order is confirmed, cancel the remaining purchase order.\n"
+"\n"
+"                    Select multiple RFQ: allows multiple purchase orders. On confirmation of a purchase order it does not cancel the remaining orders"
+msgstr ""
+"Sélectionner une seule demande de soumission (exclusive) : lorsqu'un bon de commande est confirmé, annuler les autres bons de commande.\n"
+"\n"
+" Sélectionner plusieurs demandes de soumission : autoriser les demandes de soumission multiples. Lorsqu'un bon de commande est confirmé, les autres bons ne sont pas annulés."
+
+#. module: purchase_requisition
+#: code:addons/purchase_requisition/models/purchase_requisition.py:156
+#, python-format
+msgid ""
+"You have to cancel or validate every RfQ before closing the purchase "
+"requisition."
+msgstr ""
+"Vous devez annuler ou valider chaque demande de soumission avant de clôturer la "
+"demande d'achat."
+
+#. module: repair
+#: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
+msgid "Add quotation notes..."
+msgstr "Ajouter des notes de soumission..."
+
+#. module: repair
+#: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
+msgid "Print Quotation"
+msgstr "Imprimer la soumission"
+
+#. module: repair
+#: selection:repair.order,state:0
+msgid "Quotation"
+msgstr "Soumission"
+
+#. module: repair
+#: model:ir.actions.report,name:repair.action_report_repair_order
+msgid "Quotation / Order"
+msgstr "Soumission / Commande"
+
+#. module: repair
+#: model:ir.model.fields,field_description:repair.field_repair_order__quotation_notes
+msgid "Quotation Notes"
+msgstr "Notes de soumission"
+
+#. module: repair
+#: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
+msgid "Quotations"
+msgstr "Soumissions"
+
+#. module: repair
+#: model_terms:ir.ui.view,arch_db:repair.report_repairorder
+msgid "Repair Quotation #:"
+msgstr "Soumission de la réparation n° :"
+
+#. module: repair
+#: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
+msgid "Send Quotation"
+msgstr "Envoyer la soumission"
+
+#. module: sale_crm
+#: model_terms:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
+msgid "<span class=\"o_stat_text\"> Quotation(s) </span>"
+msgstr "<span class=\"o_stat_text\">Soumission(s) </span>"
+
+#. module: sale_crm
+#: model:ir.ui.menu,name:sale_crm.sale_order_menu_quotations_crm
+msgid "My Quotations"
+msgstr "Mes Soumissions"
+
+#. module: sale_crm
+#: model_terms:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
+msgid "New Quotation"
+msgstr "Nouvelle soumission"
+
+#. module: sale_crm
+#: model:ir.model.fields,field_description:sale_crm.field_crm_lead__sale_number
+msgid "Number of Quotations"
+msgstr "Nombre de soumissions"
+
+#. module: sale_crm
+#: model:ir.actions.act_window,name:sale_crm.sale_action_quotations_new
+msgid "Quotation"
+msgstr "Soumission"
+
+#. module: sale_crm
+#: model:ir.actions.act_window,name:sale_crm.sale_action_quotations
+msgid "Quotations"
+msgstr "Soumissions"
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
+msgid ""
+":\n"
+"                                        this content will appear on the quotation only if this\n"
+"                                        product is put on the quote."
+msgstr ""
+":\n"
+"                                        ce produit n'apparaitra sur la soumission que si cet\n"
+"                                        article est présent dans la soumission."
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
+msgid ""
+":\n"
+"                                        this content will appear on the quotation only if this\n"
+"                                        product is used in the quote."
+msgstr ""
+":\n"
+"                                        ce contenu n'apparaitra sur la soumission que si cet\n"
+"                                        article est présent dans la soumission."
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.sale_order_portal_content_inherit_sale_quotation_builder
+msgid ""
+":\n"
+"                        this content will appear on the quotation only if this\n"
+"                        product is not removed."
+msgstr ""
+":\n"
+"ce contenu apparaîtra sur la soumission que si ce \n"
+"référence n'est pas enlevée.  "
+
+
+
+#. module: sale_quotation_builder
+#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
+msgid ""
+"<strong>Template Header:</strong> this content\n"
+"                                    will appear on all quotations using this\n"
+"                                    template."
+msgstr ""
+"<strong>En-tête du Modèle:</strong> ce contenu\n"
+"                                    apparaitra sur toutes les soumissions en utilisant ce\n"
+"                                    modèle."
+
+#. module: sale_quotation_builder
+#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
+msgid ""
+"Great quotation templates will significantly\n"
+"                                <strong>boost your success rate</strong>. The\n"
+"                                first section is usually about your company,\n"
+"                                your references, your methodology or\n"
+"                                guarantees, your team, SLA, terms and conditions, etc."
+msgstr ""
+"Des modèles de soumission travaillés augmenteront de manière\n"
+"                                <strong>significative votre taux de réussite</strong>. La\n"
+"                                première partie concerne généralement votre entreprise,\n"
+"                                vos références, votre méthodologie ou\n"
+"                                vos garanties, votre équipe, vos accords de niveau de service, vos conditions générales, etc."
+
+#. module: sale_quotation_builder
+#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
+msgid ""
+"If you edit a quotation from the 'Preview' of a quotation, you will\n"
+"                        update that quotation only. If you edit the quotation\n"
+"                        template (from the Configuration menu), all future quotations will\n"
+"                        use this modified template."
+msgstr ""
+"Modifier une soumission depuis l'« Aperçu » de cette dernière\n"
+"                        met seulement à jour la soumission du client. Si vous mettez à jour le modèle de soumission\n"
+"                        (depuis le menu Configuration), toutes les autres soumissions utiliseront\n"
+"                        ce modèle modifié."
+
+#. module: website_event_track
+#: model:event.track.stage,name:website_event_track.event_track_stage0
+msgid "Proposal"
+msgstr "Soumission"
+
+#. module: website_sale_delivery
+#: model_terms:ir.ui.view,arch_db:website_sale_delivery.view_delivery_carrier_form_website_delivery
+msgid "Description displayed on the eCommerce and on online quotations."
+msgstr ""
+"Description affichée sur le système d'e-commerce et les soumissions en ligne."
+
+#. module: website_sale_delivery
+#: model:ir.model.fields,field_description:website_sale_delivery.field_delivery_carrier__website_description
+msgid "Description for Online Quotations"
+msgstr "Description pour les soumissions en ligne"
+
+#. module: sale
+#: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
+msgid "<strong>Quotation Date:</strong>"
+msgstr "<strong>Date soumission :</strong>"
+
+#. module: sale
+#: model_terms:ir.ui.view,arch_db:sale.view_quotation_tree
+msgid "Quotation Date"
+msgstr ""
