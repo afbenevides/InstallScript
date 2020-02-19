@@ -148,46 +148,6 @@ msgid ""
 "requisition."
 msgstr ""
 
-#. module: repair
-#: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
-msgid "Add quotation notes..."
-msgstr ""
-
-#. module: repair
-#: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
-msgid "Print Quotation"
-msgstr ""
-
-#. module: repair
-#: selection:repair.order,state:0
-msgid "Quotation"
-msgstr ""
-
-#. module: repair
-#: model:ir.actions.report,name:repair.action_report_repair_order
-msgid "Quotation / Order"
-msgstr ""
-
-#. module: repair
-#: model:ir.model.fields,field_description:repair.field_repair_order__quotation_notes
-msgid "Quotation Notes"
-msgstr ""
-
-#. module: repair
-#: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
-msgid "Quotations"
-msgstr ""
-
-#. module: repair
-#: model_terms:ir.ui.view,arch_db:repair.report_repairorder
-msgid "Repair Quotation #:"
-msgstr ""
-
-#. module: repair
-#: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
-msgid "Send Quotation"
-msgstr ""
-
 #. module: sale_crm
 #: model_terms:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
 msgid "<span class=\"o_stat_text\"> Quotation(s) </span>"
@@ -216,74 +176,6 @@ msgstr ""
 #. module: sale_crm
 #: model:ir.actions.act_window,name:sale_crm.sale_action_quotations
 msgid "Quotations"
-msgstr ""
-
-#. module: sale_quotation_builder
-#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
-msgid ""
-":\n"
-"                                        this content will appear on the quotation only if this\n"
-"                                        product is put on the quote."
-msgstr ""
-
-#. module: sale_quotation_builder
-#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
-msgid ""
-":\n"
-"                                        this content will appear on the quotation only if this\n"
-"                                        product is used in the quote."
-msgstr ""
-
-#. module: sale_quotation_builder
-#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.sale_order_portal_content_inherit_sale_quotation_builder
-msgid ""
-":\n"
-"                        this content will appear on the quotation only if this\n"
-"                        product is not removed."
-msgstr ""
-
-
-
-#. module: sale_quotation_builder
-#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
-msgid ""
-"<strong>Template Header:</strong> this content\n"
-"                                    will appear on all quotations using this\n"
-"                                    template."
-msgstr ""
-
-#. module: sale_quotation_builder
-#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
-msgid ""
-"Great quotation templates will significantly\n"
-"                                <strong>boost your success rate</strong>. The\n"
-"                                first section is usually about your company,\n"
-"                                your references, your methodology or\n"
-"                                guarantees, your team, SLA, terms and conditions, etc."
-msgstr ""
-
-#. module: sale_quotation_builder
-#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
-msgid ""
-"If you edit a quotation from the 'Preview' of a quotation, you will\n"
-"                        update that quotation only. If you edit the quotation\n"
-"                        template (from the Configuration menu), all future quotations will\n"
-"                        use this modified template."
-msgstr ""
-
-#. module: website_event_track
-#: model:event.track.stage,name:website_event_track.event_track_stage0
-msgid "Proposal"
-msgstr ""
-
-#. module: website_sale_delivery
-#: model_terms:ir.ui.view,arch_db:website_sale_delivery.view_delivery_carrier_form_website_delivery
-msgid "Description displayed on the eCommerce and on online quotations."
-msgstr ""
-
-#. module: website_sale_delivery
-#: model:ir.model.fields,field_description:website_sale_delivery.field_delivery_carrier__website_description
-msgid "Description for Online Quotations"
 msgstr ""
 
 #. module: sale

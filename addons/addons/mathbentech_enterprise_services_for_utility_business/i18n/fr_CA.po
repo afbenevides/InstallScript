@@ -65,7 +65,7 @@ msgstr ""
 "        % endif\n"
 "        de ${object.company_id.name}.\n"
 "        <br/><br/>\n"
-"        N'hesitez pas à nous contacter si vous avez des questions.\n"
+"        N'hésitez pas à nous contacter si vous avez des questions.\n"
 "        <br/><br/>\n"
 "        Salutations,\n"
 "    </p>\n"
@@ -99,7 +99,7 @@ msgid ""
 "                    documents, track all discussions, and much more."
 msgstr ""
 "Vous serez en mesure de planifier des réunions et des appels provenant\n"
-" d'opportunités, de les convertir en soumission, de joindre des documents\n"
+" d'opportunités, de les convertir en soumissions, de joindre des documents\n"
 " connexes, de suivre toutes les discussions et bien plus encore."
 
 #. module: hr
@@ -186,46 +186,6 @@ msgstr ""
 "Vous devez annuler ou valider chaque demande de soumission avant de clôturer la "
 "demande d'achat."
 
-#. module: repair
-#: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
-msgid "Add quotation notes..."
-msgstr "Ajouter des notes de soumission..."
-
-#. module: repair
-#: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
-msgid "Print Quotation"
-msgstr "Imprimer la soumission"
-
-#. module: repair
-#: selection:repair.order,state:0
-msgid "Quotation"
-msgstr "Soumission"
-
-#. module: repair
-#: model:ir.actions.report,name:repair.action_report_repair_order
-msgid "Quotation / Order"
-msgstr "Soumission / Commande"
-
-#. module: repair
-#: model:ir.model.fields,field_description:repair.field_repair_order__quotation_notes
-msgid "Quotation Notes"
-msgstr "Notes de soumission"
-
-#. module: repair
-#: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form_filter
-msgid "Quotations"
-msgstr "Soumissions"
-
-#. module: repair
-#: model_terms:ir.ui.view,arch_db:repair.report_repairorder
-msgid "Repair Quotation #:"
-msgstr "Soumission de la réparation n° :"
-
-#. module: repair
-#: model_terms:ir.ui.view,arch_db:repair.view_repair_order_form
-msgid "Send Quotation"
-msgstr "Envoyer la soumission"
-
 #. module: sale_crm
 #: model_terms:ir.ui.view,arch_db:sale_crm.crm_case_form_view_oppor
 msgid "<span class=\"o_stat_text\"> Quotation(s) </span>"
@@ -255,96 +215,6 @@ msgstr "Soumission"
 #: model:ir.actions.act_window,name:sale_crm.sale_action_quotations
 msgid "Quotations"
 msgstr "Soumissions"
-
-#. module: sale_quotation_builder
-#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
-msgid ""
-":\n"
-"                                        this content will appear on the quotation only if this\n"
-"                                        product is put on the quote."
-msgstr ""
-":\n"
-"                                        ce produit n'apparaitra sur la soumission que si cet\n"
-"                                        article est présent dans la soumission."
-
-#. module: sale_quotation_builder
-#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
-msgid ""
-":\n"
-"                                        this content will appear on the quotation only if this\n"
-"                                        product is used in the quote."
-msgstr ""
-":\n"
-"                                        ce contenu n'apparaitra sur la soumission que si cet\n"
-"                                        article est présent dans la soumission."
-
-#. module: sale_quotation_builder
-#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.sale_order_portal_content_inherit_sale_quotation_builder
-msgid ""
-":\n"
-"                        this content will appear on the quotation only if this\n"
-"                        product is not removed."
-msgstr ""
-":\n"
-"ce contenu apparaîtra sur la soumission que si ce \n"
-"référence n'est pas enlevée.  "
-
-
-
-#. module: sale_quotation_builder
-#: model_terms:ir.ui.view,arch_db:sale_quotation_builder.so_template
-msgid ""
-"<strong>Template Header:</strong> this content\n"
-"                                    will appear on all quotations using this\n"
-"                                    template."
-msgstr ""
-"<strong>En-tête du Modèle:</strong> ce contenu\n"
-"                                    apparaitra sur toutes les soumissions en utilisant ce\n"
-"                                    modèle."
-
-#. module: sale_quotation_builder
-#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
-msgid ""
-"Great quotation templates will significantly\n"
-"                                <strong>boost your success rate</strong>. The\n"
-"                                first section is usually about your company,\n"
-"                                your references, your methodology or\n"
-"                                guarantees, your team, SLA, terms and conditions, etc."
-msgstr ""
-"Des modèles de soumission travaillés augmenteront de manière\n"
-"                                <strong>significative votre taux de réussite</strong>. La\n"
-"                                première partie concerne généralement votre entreprise,\n"
-"                                vos références, votre méthodologie ou\n"
-"                                vos garanties, votre équipe, vos accords de niveau de service, vos conditions générales, etc."
-
-#. module: sale_quotation_builder
-#: model_terms:sale.order.template,website_description:sale_quotation_builder.sale_order_template_default
-msgid ""
-"If you edit a quotation from the 'Preview' of a quotation, you will\n"
-"                        update that quotation only. If you edit the quotation\n"
-"                        template (from the Configuration menu), all future quotations will\n"
-"                        use this modified template."
-msgstr ""
-"Modifier une soumission depuis l'« Aperçu » de cette dernière\n"
-"                        met seulement à jour la soumission du client. Si vous mettez à jour le modèle de soumission\n"
-"                        (depuis le menu Configuration), toutes les autres soumissions utiliseront\n"
-"                        ce modèle modifié."
-
-#. module: website_event_track
-#: model:event.track.stage,name:website_event_track.event_track_stage0
-msgid "Proposal"
-msgstr "Soumission"
-
-#. module: website_sale_delivery
-#: model_terms:ir.ui.view,arch_db:website_sale_delivery.view_delivery_carrier_form_website_delivery
-msgid "Description displayed on the eCommerce and on online quotations."
-msgstr ""
-"Description affichée sur le système d'e-commerce et les soumissions en ligne."
-
-#. module: website_sale_delivery
-#: model:ir.model.fields,field_description:website_sale_delivery.field_delivery_carrier__website_description
-msgid "Description for Online Quotations"
-msgstr "Description pour les soumissions en ligne"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -379,7 +249,7 @@ msgstr "Envoyer une soumission pour tester le portail client."
 #. module: sale_management
 #: model_terms:ir.actions.act_window,help:sale_management.sale_order_template_action
 msgid "Create your quotation template"
-msgstr "Créer votre modèle de soumissions"
+msgstr "Créer votre modèle de soumission"
 
 #. module: sale
 #: model_terms:ir.ui.view,arch_db:sale.sale_onboarding_sample_quotation_step
